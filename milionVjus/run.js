@@ -4,5 +4,3 @@ for(i=0; i<100; i++){
     console.log('iteracija ' + i);
     browser.driver.sleep(400000);
 }
-
-
