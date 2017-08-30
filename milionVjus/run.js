@@ -1,4 +1,4 @@
-(function recursion(i)  {
+(function recursion(i) {
     if(i === undefined) i = 0;
     browser.driver.manage().deleteAllCookies();
     browser.driver.get("https://www.youtube.com/watch?v=EggAULk8K-8").then(function () {
@@ -23,13 +23,20 @@
         browser.driver.manage().deleteAllCookies();
     });
 
-    https://www.youtube.com/watch?v=F3tbEhSwkJQ
     console.log('iteracija ' + i);
     browser.driver.sleep(400000);
     if (i == 50) return;
     recursion(++i);
 })();
+/*
+(function(){
+    describe('',()=>{
+        it('should open nba',()=>{
+            browser.get('http://www.nba.com/');
+            browser.sleep(5000);
+            browser.close();
+        })
+    });
+})(); 
 
-
-
-
+*/
